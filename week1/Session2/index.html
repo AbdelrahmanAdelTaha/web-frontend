@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>Session 2 Forms</h1>
+    <form>
+      <label for="name">Name</label>
+      <input placeholder="enter your first name" id="name" type="text" name="name" />
+      <br />
+      <br />
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Submit</button>
+      <button type="menu">Submit</button>
+      <br />
+      <br />
+
+      <label for="python">python</label>
+      <input id="python" type="radio" name="programming" value="python" />
+      <label for="java">java</label>
+      <input id="java" type="radio" name="programming" value="java" />
+
+      <br />
+      <br />
+
+      <label for="css">css</label>
+      <input id="css" type="checkbox" name="css" value="css" />
+
+      <br />
+      <br />
+
+      <label for="js">js</label>
+      <input id="js" type="checkbox" name="js" value="js" />
+
+      <br />
+      <br />
+
+      <label for="html">html</label>
+      <input id="html" type="checkbox" name="html" value="html" />
+
+      <br />
+
+      <label for="choose">choose your government</label>
+      <select id="choose" name="choose Your government">
+        <optgroup label="Group A">
+          <option value="Cairo">Cairo</option>
+          <option value="Alex">Alex</option>
+          <option value="Aswan">Aswan</option>
+        </optgroup>
+        <optgroup label="Group B">
+          <option value="Giza">Giza</option>
+          <option value="Damietta">Damietta</option>
+          <option value="Qena">Qena</option>
+        </optgroup>
+      </select>
+
+      <br />
+      <br />
+
+      <input list="cities" name="city" />
+      <datalist id="cities">
+        <option value="Cairo">
+        <option value="Alex">
+        <option value="Aswan">
+        <option value="Giza">
+        <option value="Damietta">
+        <option value="Qena">
+      </datalist>
+    </form>
+  </body>
+</html>
